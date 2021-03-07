@@ -13,20 +13,22 @@
         grid-gap:10px;
       
     }
+    .section-one{
+        margin:30px auto 0px;
+    }
   
   
 }
 @media screen and (max-width:900px){
     .client{
         width:350px;
-        background-color: deeppink;
+       
         padding:20px 0px 20px 30px;
         margin:0% 2% 1% ;
     }
     #testimonials{
         margin-top:70px;
-       
-        background-color: red;
+      
         width:95%;
         margin-left:3%;
     }
@@ -87,7 +89,7 @@
     }
   
     .four-img{
-        background-color: rgb(211, 178, 30);
+      
         padding-left:15px;
     }
   

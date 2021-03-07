@@ -112,14 +112,16 @@ ul {
 
 .start {
   color: white;
-  background-color: #65e2d9;
-  border: 1px solid #65e2d9;
+  border: none;
+  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
   border-radius: 2em;
   width: 200px;
   font-weight: 700;
-  height: 40px;
+  height: 45px;
   padding: 10px 20px;
   margin-top: 20px;
+  font-family: 'Raleway', sans-serif;
 }
 
 .wrop {
@@ -138,6 +140,7 @@ ul {
 }
 
 .one-title {
+  font-family: 'Raleway', sans-serif;
   padding-top: 20px;
 }
 
@@ -161,6 +164,7 @@ ul {
 .one-p {
   width: 70%;
   color: white;
+  font-size: 15px;
   margin: 0 auto;
   padding-top: 10px;
 }
@@ -187,6 +191,7 @@ ul {
 }
 
 .four-text > h2 {
+  font-family: 'Raleway', sans-serif;
   font-size: 30px;
   font-weight: 700px;
   line-height: 1.2em;
@@ -195,6 +200,28 @@ ul {
 
 .four-text p {
   padding-bottom: 15px;
+  font-size: 14px;
+}
+
+.four-text a {
+  font-size: 14px;
+  color: #65e2d9;
+}
+
+.arrow-p {
+  border-bottom: 1px solid #65e2d9;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  width: 150px;
+  padding-bottom: 5px;
+}
+
+.arrow {
+  padding-left: 5px;
 }
 
 .productive {
@@ -242,17 +269,17 @@ ul {
 
 .client-info {
   padding-left: 10px;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.08em;
 }
 
 .client-info > p {
-  font-size: 13px;
+  font-size: 12px;
   color: white;
   font-weight: 700;
 }
 
 .client-info > p + p {
-  font-size: 12px;
+  font-size: 11px;
   color: white;
   font-weight: 200;
 }
@@ -271,10 +298,12 @@ ul {
   font-size: 30px;
   font-weight: 700px;
   color: white;
+  font-family: 'Raleway', sans-serif;
 }
 
 #get-started > p {
   width: 80%;
+  font-size: 14px;
   margin: 0 auto;
   color: white;
   padding-bottom: 20px;
@@ -304,7 +333,9 @@ ul {
 
 #submit {
   color: white;
-  background-color: #65e2d9;
+  background-image: -webkit-gradient(linear, left top, right top, from(#65e2d9), to(#339ecc));
+  background-image: linear-gradient(to right, #65e2d9, #339ecc);
+  font-family: 'Raleway', sans-serif;
   border-radius: 2em;
   width: 200px;
   font-weight: 700;
@@ -329,9 +360,11 @@ ul {
   border-radius: 50%;
   border: 1px solid white;
   color: white;
+  margin-left: 5px;
 }
 
 .footer-small-wrapper {
+  font-size: 14px;
   padding-top: 30px;
   display: -ms-grid;
   display: grid;
