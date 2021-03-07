@@ -107,7 +107,7 @@ ul {
 }
 
 .three-p > p {
-  font-size: 17px;
+  font-size: 14px;
 }
 
 .start {
@@ -129,7 +129,7 @@ ul {
 }
 
 .section-one {
-  margin: 200px auto 0px;
+  margin: 250px auto 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -273,13 +273,13 @@ ul {
 }
 
 .client-info > p {
-  font-size: 12px;
+  font-size: 11px;
   color: white;
   font-weight: 700;
 }
 
 .client-info > p + p {
-  font-size: 11px;
+  font-size: 10px;
   color: white;
   font-weight: 200;
 }
@@ -361,6 +361,10 @@ ul {
   border: 1px solid white;
   color: white;
   margin-left: 5px;
+}
+
+.fa-facebook-f {
+  padding: 10px;
 }
 
 .footer-small-wrapper {

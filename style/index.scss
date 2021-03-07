@@ -80,7 +80,7 @@ ul{
    color:white;
     line-height: 1.5em;
     >p{
-        font-size:17px;
+        font-size:14px;
         
     }
 }
@@ -102,7 +102,7 @@ ul{
     background-color: hsl(218, 28%, 13%);
 }
 .section-one{
-    margin:200px auto 0px;
+    margin:250px auto 0px;
     display:flex;
     justify-content: space-around;
     width:80%;
@@ -226,11 +226,11 @@ ul{
     letter-spacing: 0.08em;
    
     >p{
-        font-size:12px;
+        font-size:11px;
         color:white;
         font-weight:700;
         +p{
-            font-size:11px;
+            font-size:10px;
             color:white;
             font-weight:200;
         }
@@ -300,6 +300,9 @@ ul{
     border:1px solid white;
     color:white;
     margin-left:5px;
+}
+.fa-facebook-f{
+    padding:10px;
 }
 .footer-small-wrapper{
   font-size: 14px;
